@@ -1,0 +1,122 @@
+#menu {
+  width: 1024px;
+}
+
+#subMenus nav {
+	position: absolute;
+	width: 1024px;	
+	top: 598px;
+	background-image: url("../img/navigator-background.png");
+	display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  width: 650px;
+  height: 495px;
+  background-color: #FFFFFF;
+  display: none;
+  padding: 20px 20px 0 50px;
+}
+
+.modal .modalTitle {
+  font-family: "Helvetica Inserat LTS";
+  font-size: 22pt;
+  color: #005856;
+  text-transform: uppercase;
+}
+
+.modal .modalTitle img {
+  padding-right: 15px;
+}
+
+.modal .container {
+  overflow: auto;
+}
+
+.modal .content {
+  margin-top: 30px;
+}
+
+.modal .content .left {
+  float: left;
+  margin-right: 30px;
+  min-height: 150px;
+}
+
+.modal .content .right {
+  padding-right: 40px;
+  margin-top: 10px;
+  min-height: 150px;
+}
+
+.modal .close {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 663px;
+}
+
+#title {
+  top: 10px;
+  position: absolute;
+  display: none;	
+}
+
+#tip {
+  position: absolute;
+  left: 442px;
+}
+
+#tip img {
+  display: block;
+}
+
+.tipText {
+  background-color: #FFFFFF;
+  padding: 15px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.tip {
+  top: -140px;
+  -webkit-transition: top 1s ease-in-out;
+  -moz-transition: top 1s ease-in-out;
+  -o-transition: top 1s ease-in-out;
+  transition: top 1s ease-in-out;
+}
+
+.tip-animation-general   { top: 500px; }
+.tip-animation-navigator { top: 279px; }
+.tip-animation-chrome    { top: 294px; }
+.tip-animation-firefox   { top: 324px; }
+
+#menuRight {
+	position: absolute;
+	left: 836px;
+	top: 77px;
+	display: none;
+}
+
+#menuRight ul {
+  margin: 0;
+  padding: 0;
+  max-width: 181px;
+}
+
+#menuRight li {
+  display: inline-block;
+  margin: 3px 0;
+  padding: 0;
+}
+
+#menuRight .right {
+	margin-left: 3px;
+}
+
+#menuRight .left {
+	margin-right: 3px;
+}
